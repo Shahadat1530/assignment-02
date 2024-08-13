@@ -201,8 +201,7 @@ body {
 
 /* Habit Section style */
 .habit {
-    width: 1044px;
-    /* height: 452px; */
+    width: 100%;
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -230,15 +229,13 @@ body {
 }
 
 .habit-images {
-    width: 1044px;
-    max-height: 274px;
+    width: 100%;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
 }
 
 .habit-image {
-    max-width: 231px;
-    max-height: 274px;
+    width: 231px;
 }
 
 .image-circle {
@@ -281,7 +278,8 @@ body {
 
     .head-contents {
         flex-direction: column;
-        margin-left: 10px;
+        margin: 0;
+        margin-left: 20px;
     }
 
     .head-content {
@@ -311,12 +309,13 @@ body {
     }
 
     .habit{
-        margin: 0px;
+        margin:0 auto;
     }
 
     .habit-head {
         width: 318px;
-        margin: 0px;
+        margin: 0 auto;
+        text-align: center;
     }
 
     .habit-title {
@@ -324,6 +323,7 @@ body {
     }
 
     .habit-images {
-        /* flex-direction: column; */
+        flex-direction: column;
+        align-items: center;
     }
 }
