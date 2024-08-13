@@ -32,7 +32,7 @@ body {
 /* header styles */
 .header {
     width: 100%;
-    height: 715px;
+    /* height: 715px; */
     background-blend-mode: linear-gradient(180deg, rgba(119, 119, 119, 0) 100%);
 }
 
@@ -91,6 +91,7 @@ body {
 .head-image {
     max-width: 349px;
     max-height: 580px;
+    position: relative;
 }
 
 .head-image img {
@@ -98,7 +99,7 @@ body {
 }
 
 .btn-trans {
-    padding: 17px 50px 30px 24px;
+    padding: 10px 30px 20px 12px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
@@ -106,15 +107,11 @@ body {
 }
 
 .top-right {
+    width: 193px;
     position: absolute;
-    margin-top: -450px;
-    margin-left: 180px;
+    top: 120px;
+    left: 230px;
 
-}
-
-.bottom-left {
-    margin-top: -280px;
-    margin-left: -110px;
 }
 
 .btn-title {
@@ -129,6 +126,22 @@ body {
     font-family: Inter;
     font-size: .8rem;
     font-weight: 400;
+}
+
+.bottom-left {
+    width: 206px;
+    position: absolute;
+    bottom: 70px;
+    left: -60px;
+}
+
+.red-circle{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color:rgb(230, 83, 60);
+    border-radius: 50%;
 }
 
 .bottom-title {
@@ -186,14 +199,76 @@ body {
     font-weight: 400;
 }
 
+/* Habit Section style */
+.habit {
+    width: 1044px;
+    /* height: 452px; */
+    margin: 0 auto;
+    margin-top: 100px;
+}
 
+.habit-head {
+    width: 630px;
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+}
 
+.habit-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
 
+.habit-des {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: .8rem;
+    font-weight: 400;
+}
 
+.habit-images {
+    width: 1044px;
+    max-height: 274px;
+    justify-content: center;
+    gap: 40px;
+}
 
+.habit-image {
+    max-width: 231px;
+    max-height: 274px;
+}
 
+.image-circle {
+    max-width: 180px;
+    max-height: 150px;
+    margin: 0 auto;
+}
 
+.image-circle img {
+    width: 100%;
+    border-radius: 65%;
+}
 
+.image-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 65px;
+    margin-bottom: 0px;
+}
+
+.image-des {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: .8rem;
+    font-weight: 400;
+    margin-left: 20px;
+}
 
 
 
@@ -217,14 +292,38 @@ body {
         font-size: 2.25rem;
     }
 
+    .btn-primary,
+    .btn {
+        width: 169px;
+        padding: 0;
+    }
+
     .top-right {
         position: absolute;
-        margin-top: -450px;
-        margin-left: 100px;
+        top: 20px;
+        left: 170px;
     }
 
     .bottom-left {
-        margin-top: -280px;
-        margin-left: 0px;
+        position: absolute;
+        bottom: 200px;
+        left: 0px;
+    }
+
+    .habit{
+        margin: 0px;
+    }
+
+    .habit-head {
+        width: 318px;
+        margin: 0px;
+    }
+
+    .habit-title {
+        font-size: 2rem;
+    }
+
+    .habit-images {
+        /* flex-direction: column; */
     }
 }
