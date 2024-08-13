@@ -135,12 +135,12 @@ body {
     left: -60px;
 }
 
-.red-circle{
+.red-circle {
     width: 40px;
     height: 40px;
     margin-top: 10px;
     margin-right: 10px;
-    background-color:rgb(230, 83, 60);
+    background-color: rgb(230, 83, 60);
     border-radius: 50%;
 }
 
@@ -267,6 +267,56 @@ body {
     margin-left: 20px;
 }
 
+/* Run Extra Section Styles*/
+
+.run {
+    width: 60%;
+    margin: 90px auto;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+    justify-content: space-around;
+}
+
+.run-contents {
+    width: 443px;
+    margin: 42px;
+}
+
+.run-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.run-des {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: .8rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.run-image {
+    width: 366px;
+    height: 312px;
+    margin: 30px;
+}
+
+.run-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -278,8 +328,7 @@ body {
 
     .head-contents {
         flex-direction: column;
-        margin: 0;
-        margin-left: 20px;
+        margin: 0 auto;
     }
 
     .head-content {
@@ -308,8 +357,8 @@ body {
         left: 0px;
     }
 
-    .habit{
-        margin:0 auto;
+    .habit {
+        margin: 0 auto;
     }
 
     .habit-head {
@@ -325,5 +374,21 @@ body {
     .habit-images {
         flex-direction: column;
         align-items: center;
+    }
+
+    .run {
+        width: 90%;
+        margin: 70px auto;
+        flex-direction: column;
+    }
+
+    .run-contents {
+        width: 287px;
+    }
+
+    .run-image {
+        width: 287px;
+        height: 170px;
+        margin: 30px;
     }
 }
