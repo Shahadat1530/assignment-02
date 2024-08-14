@@ -310,8 +310,125 @@ body {
     border-radius: 18px;
 }
 
+/* BMI style */
 
+/* Teams style*/
 
+.meet {
+    width: 100%;
+}
+
+.meet-contents {
+    width: 671px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.meet-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.meet-des {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.teams {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.team-image-1 {
+    width: 327px;
+    height: 272px;
+    margin: 25px;
+    background-image: url('../images/trainer1.png');
+    background-size: cover;
+    border-radius: 18px;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.team-image-2 {
+    width: 327px;
+    height: 272px;
+    margin: 25px;
+    background-image: url('../images/trainer2.png');
+    background-size: cover;
+    border-radius: 18px;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.team-image-3 {
+    width: 327px;
+    height: 272px;
+    margin: 25px;
+    background-image: url('../images/trainer3.png');
+    background-size: cover;
+    border-radius: 18px;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.team-image-4 {
+    width: 327px;
+    height: 272px;
+    margin: 25px;
+    background-image: url('../images/trainer4.png');
+    background-size: cover;
+    border-radius: 18px;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.team-image-5 {
+    width: 327px;
+    height: 272px;
+    margin: 25px;
+    background-image: url('../images/trainer5.png');
+    background-size: cover;
+    border-radius: 18px;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.team-image-6 {
+    width: 327px;
+    height: 272px;
+    margin: 25px;
+    background-image: url('../images/trainer6.png');
+    background-size: cover;
+    border-radius: 18px;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.trainer-name {
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.trainer {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.65);
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
 
 
 
@@ -361,13 +478,13 @@ body {
         margin: 0 auto;
     }
 
-    .habit-head {
+    .habit-head, .meet-contents {
         width: 318px;
         margin: 0 auto;
         text-align: center;
     }
 
-    .habit-title {
+    .habit-title, .meet-title {
         font-size: 2rem;
     }
 
@@ -390,5 +507,10 @@ body {
         width: 287px;
         height: 170px;
         margin: 30px;
+    }
+
+    .teams {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
     }
 }
