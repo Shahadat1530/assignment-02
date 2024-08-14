@@ -570,4 +570,12 @@ hr {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .footer-head{
+        width: 100%;
+    }
+    .footer-contents{
+        flex-direction: column;
+        gap: 35px;
+    }
 }
